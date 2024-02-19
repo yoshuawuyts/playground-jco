@@ -1,16 +1,16 @@
 {
-  "dependencies": {
-    "@bytecodealliance/jco": "^1.0.0"
-  },
   "name": "playground-jco",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@bytecodealliance/preview2-shim": "^0.15.1"
+  }
 }
