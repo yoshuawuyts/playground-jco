@@ -6,6 +6,8 @@ use wit_bindgen::rt::string::String as WitString;
 struct Component;
 impl Guest for Component {
     fn scream(input: WitString) -> WitString {
-        input.to_uppercase().replace(' ', "_")
+        let mut s = input.to_uppercase();
+        s.push_str("!!1!");
+        s.into()
     }
 }
